@@ -101,32 +101,31 @@ export default function Home() {
 
       {/* Sticky Input Bar */}
       <div className="fixed bottom-0 w-full bg-black border-t border-gray-700 p-4">
-  <div className="flex max-w-2xl mx-auto items-center space-x-2">
-    <textarea
-      rows={2}
-      className="flex-1 p-3 bg-white text-black border border-gray-300 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500"
-      placeholder="Describe your symptoms..."
-      value={message}
-      onChange={(e) => setMessage(e.target.value)}
-      onKeyDown={(e) => {
-        if (e.key === "Enter" && !e.shiftKey) {
-          e.preventDefault();
-          handleAsk();
-        }
-      }}
-    />
-    <button
-      onClick={handleAsk}
-      disabled={loading}
-      className={`px-4 py-2 rounded-lg text-white font-semibold transition ${
-        loading ? "bg-gray-600" : "bg-indigo-600 hover:bg-indigo-700"
-      }`}
-    >
-      {loading ? "Thinking..." : "Ask"}
-    </button>
-  </div>
-</div>
-
+      <div className="flex max-w-2xl mx-auto items-stretch space-x-2">
+        <textarea
+          rows={1}
+          className="flex-1 bg-white text-black border border-gray-300 rounded-lg resize-none px-3 py-2 h-12 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          placeholder="Describe your symptoms..."
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+              e.preventDefault();
+              handleAsk();
+            }
+          }}
+        />
+        <button
+          onClick={handleAsk}
+          disabled={loading}
+          className={`h-12 px-5 rounded-lg text-white font-semibold transition ${
+            loading ? "bg-gray-600" : "bg-indigo-600 hover:bg-indigo-700"
+          }`}
+        >
+          {loading ? "Thinking..." : "Ask"}
+        </button>
+      </div>
+    </div>
     </main>
   );
 }
