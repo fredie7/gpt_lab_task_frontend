@@ -23,7 +23,13 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [sessionId, setSessionId] = useState<string>("");
 
+  const inputRef = useRef<HTMLTextAreaElement | null>(null);
   const chatEndRef = useRef<HTMLDivElement | null>(null);
+
+  // Focus the input field upon component mount
+  useEffect(() => {
+  inputRef.current?.focus();
+}, []);
 
   //Ensure the chat view always shows the latest messages once history changes
   useEffect(() => {
@@ -135,6 +141,7 @@ export default function Home() {
       <div className="fixed bottom-0 w-full bg-black border-t border-gray-700 p-4">
         <div className="flex max-w-2xl mx-auto items-stretch space-x-2">
           <textarea
+            ref={inputRef}
             rows={1}
             className="flex-1 bg-white text-black border border-gray-300 rounded-lg resize-none px-3 py-2 h-12 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             placeholder="Describe your symptoms..."
