@@ -1,4 +1,4 @@
-## SimpotoCare App
+## SimptoCare App
 is an applcation that aids the interactivity between users who need medical diagnosis, recommendation & supports explanation of each recommendation. 
 
 <table>
