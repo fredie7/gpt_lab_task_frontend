@@ -1,35 +1,35 @@
 ## SimpotoCare App
 is an applcation that aids the interactivity between users who need medical diagnosis, recommendation & supports explanation of each recommendation. 
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/fredie7/gpt_lab_task_frontend/blob/main/UI%20(3776).png?raw=true" height="200"><br>
+      <sub><b>Fig 4.</b> UI Landing Page</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/fredie7/gpt_lab_task_frontend/blob/main/conversation_1%20(3763).png?raw=true" height="200"><br>
+      <sub><b>Fig 5.</b>Diagnostic Conversation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/fredie7/gpt_lab_task_frontend/blob/main/conversation_2%20(3764).png?raw=true" height="200"><br>
+      <sub><b>Fig 6.</b>Diagnostic Conversation</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/fredie7/gpt_lab_task_frontend/blob/main/conversation_3%20(3765).png?raw=true" height="200"><br>
+      <sub><b>Fig 7.</b>Diagnostic Conversation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/fredie7/gpt_lab_task_frontend/blob/main/conversation_4%20(3766).png?raw=true" height="200"><br>
+      <sub><b>Fig 8.</b>Diagnostic & Recommendation Conversation 4</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/fredie7/gpt_lab_task_frontend/blob/main/conversation_5%20(3767).png?raw=true" height="200"><br>
+      <sub><b>Fig 9.</b>Recommendation & Explanation Conversation 5</sub>
+    </td>
+  </tr>
+</table>
