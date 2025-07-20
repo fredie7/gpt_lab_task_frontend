@@ -41,3 +41,4 @@ To run the program locally,
 4. Retrieve all dependencies by running:npm install
 5. Start the application with: npm run dev
 
+Meanhwile, here's a like to the server-side application powering the client-side: https://github.com/fredie7/gpt_lab_task
