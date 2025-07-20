@@ -33,3 +33,11 @@ is an applcation that aids the interactivity between users who need medical diag
     </td>
   </tr>
 </table>
+
+To run the program locally,
+1. Spin up your terminal on Visual Studio Code (Git bash preferred)
+2. Clone the repository: git clone https://github.com/fredie7/gpt_lab_task_frontend.git
+3. Go into the directory: cd gpt_lab_task_frontend
+4. Retrieve all dependencies by running:npm install
+5. Start the application with: npm run dev
+
