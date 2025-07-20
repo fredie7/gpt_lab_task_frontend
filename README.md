@@ -1,4 +1,4 @@
-## SumpoCare App
+## SimpotoCare App
 is an applcation that aids the interactivity between users who need medical diagnosis, recommendation & supports explanation of each recommendation. 
 
 First, run the development server:
