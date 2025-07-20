@@ -1,6 +1,5 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
+## SumpoCare App
+is an applcation that aids the interactivity between users who need medical diagnosis, recommendation & supports explanation of each recommendation. 
 
 First, run the development server:
 
